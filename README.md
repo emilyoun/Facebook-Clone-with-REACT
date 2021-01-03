@@ -30,28 +30,28 @@ Google's eco system on the back (```firebase```, ```google authentication```) an
 ```command + b``` to close explorer
 ```command + p ``` to go back to the previous file, p to move down
 
-## Facebook Widgets at
+## 📕 Facebook Widgets at
 
 https://developers.facebook.com/docs/plugins/page-plugin/
 
-## when need to update time
+## 📗 when need to update time
 
 use the following code ```<p>{new Data(timestamp?.toDate()).toUTCString}</p>
 
-## How to study react
+## 📘 How to study react
 1. Documentation -> learn basics
 2. try build with REACT 
 3. check interview questions  
 
 
-## Firebase Hosting
+## 📒 Firebase Hosting
 
 1. ```firebase init1`` : firebase.json public => build
 2. ```npm run build```
 3. ```firebase deploy``` to open a server
 
 
-## Study Timeline
+## 📙 Study Timeline
 
 * Jan 2 2021 23:40 - 5:00 1:21:25
 * Jan 3 2021 15:00 - 04:41 2:28:31    
