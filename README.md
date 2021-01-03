@@ -36,7 +36,7 @@ https://developers.facebook.com/docs/plugins/page-plugin/
 
 ## 📗 when need to update time
 
-use the following code ```<p>{new Data(timestamp?.toDate()).toUTCString}</p>
+use the following code ```<p>{new Data(timestamp?.toDate()).toUTCString}</p>```
 
 ## 📘 How to study react
 1. Documentation -> learn basics
