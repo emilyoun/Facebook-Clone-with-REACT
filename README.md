@@ -47,7 +47,7 @@ use the following code ```<p>{new Data(timestamp?.toDate()).toUTCString}</p>```
 
 ## 📒 Firebase Hosting
 
-1. ```firebase init1`` : firebase.json public => build
+1. ```firebase init``` : firebase.json public => build
 2. ```npm run build```
 3. ```firebase deploy``` to open a server
 
