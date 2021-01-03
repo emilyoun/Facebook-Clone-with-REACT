@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Build a Facebook Clone with REACT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* React + **React HOOKS**
+* React Context API -> REDUX pattern 
+* MATERIAL UI (Icons)
+is a library for css. One of the most popular css libraries. brings pristine icons.
+    * on terminal, install ```npm install @material-ui/core``` to your local repository and install ```npm install @material-ui/icons```.
+    * more icons can be found [here](https://material-ui.com/components/material-icons/)
+* FLEXBOX (responsive)
+* [firebase](https://console.firebase.google.com/)'s Firestore realtime DB 
+* Firebase Hosting
+* Firebase Google Authentication (Full Log-In)
+* React filp move (pops in all smooth)
 
-## Available Scripts
+#### Why firebase? 
 
-In the project directory, you can run:
+firebase lets you host all the data you want
+real time database 
+Google's eco system on the back (```firebase```, ```google authentication```) and ```react``` on the front :ties together
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### short cut to move file to file
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```command + b``` to close explorer
+```command + p ``` to go back to the previous file, p to move down
 
-### `npm test`
+## Facebook Widgets at
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://developers.facebook.com/docs/plugins/page-plugin/
 
-### `npm run build`
+## when need to update time
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+use the following code ```<p>{new Data(timestamp?.toDate()).toUTCString}</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to study react
+1. Documentation -> learn basics
+2. try build with REACT 
+3. check interview questions  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Firebase Hosting
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. ```firebase init1`` : firebase.json public => build
+2. ```npm run build```
+3. ```firebase deploy``` to open a server
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Study Timeline
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Jan 2 2021 23:40 - 5:00 1:21:25
+* Jan 3 2021 15:00 - 04:41 2:28:31    
+* Jan 4 2021 08:00 - 16:05 DONE
